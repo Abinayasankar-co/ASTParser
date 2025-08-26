@@ -8,19 +8,18 @@ authors = [
 ]
 requires-python = ">=3.9"
 dependencies = [
- "tree-sitter",
- "tree-sitter-javascript",
- "tree-sitter-typescript",
- "traceback"
+"tree-sitter",
+"tree-sitter-javascript",
+"tree-sitter-typescript",
+"traceback"
 ]
 classifiers = [
- "Development Status :: 4 - Beta",
- "Intended Audience :: Developers",
- "Programming Language :: Python :: 3",
- "License :: OSI Approved :: MIT License"
+"Development Status :: 4 - Beta",
+"Intended Audience :: Developers",
+"Programming Language :: Python :: 3",
+"License :: OSI Approved :: MIT License"
 ]
 license = { file = "LICENSE" }
-license-files = { globs = ["LICENSE"] }
 
 [project.urls]
 Source = "https://github.com/Abinayasankar-co/ASTParser"

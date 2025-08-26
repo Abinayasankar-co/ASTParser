@@ -1,0 +1,17 @@
+[project]
+name = "ASTPARSER"
+version = "0.0.1"
+description = "A high-performance AST parsing utility enabling multi-language support with JSON AST serialization, ideal for intelligent code analysis pipelines."
+readme = "README.md"
+license = { text = "MIT License" }
+authors = [{ name = "Abinayasankar M", email = "abinayasankar2004@gmail.com" }]
+dependencies = ["tree-sitter", "tree_sitter_javascript", "tree_sitter_typescript" ,"traceback"]
+
+[project.urls]
+"Source" = "https://github.com/Abinayasankar-co/ASTParser"
+
+[project.classifiers]
+"Development Status :: 4 - Beta"
+"Intended Audience :: Developers"
+"Programming Language :: Python :: 3"
+"License :: OSI Approved :: MIT License"

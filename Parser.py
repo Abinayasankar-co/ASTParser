@@ -27,7 +27,6 @@ class ASTParser:
                 "children": [self.node_to_dict(child, code) for child in node.children]
             }
 
-
     def parse(self, code: str, language: str) -> dict:
         try:
             if isinstance(code,str) or isinstance(language,str):
